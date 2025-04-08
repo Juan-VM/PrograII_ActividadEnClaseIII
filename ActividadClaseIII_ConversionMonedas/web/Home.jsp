@@ -14,46 +14,37 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Conversor monedas</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-        <!-- Estilo personalizado para cambiar los colores -->
         <style>
-            /* Cambiar el fondo de la cabecera a gris claro */
             .bg-custom {
-                background-color: #6c757d; /* Gris claro */
+                background-color: #6c757d; 
             }
-
-            /* Cambiar el color del texto en la cabecera a blanco */
             .text-custom-header {
-                color: #ffffff; /* Blanco */
+                color: #ffffff;
             }
-
-            /* Cambiar el color del texto en otras secciones a negro */
             .text-custom {
-                color: #000000; /* Negro */
+                color: #000000;
             }
-
-            /* Cambiar el color del botón a gris */
             .btn-custom {
                 background-color: #6c757d;
                 color: #ffffff;
             }
-
             .btn-custom:hover {
                 background-color: #5a6368;
             }
         </style>
     </head>
     <body>
-        <!-- Cabecera con fondo gris y texto blanco -->
+
         <div class="p-5 bg-custom text-custom-header text-center">
             <h1>Coin</h1>
             <p>Simulador de conversión de monedas</p> 
         </div>
 
-        <!-- Barra de navegación -->
+
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
                 <ul class="navbar-nav">
@@ -79,7 +70,6 @@
                 </div>
 
                 <div class="text-center">
-                    <!-- Botón con fondo gris -->
                     <button type="submit" class="btn btn-custom" id="convert-btn"><b>Convertir</b></button>
                 </div>
             </form>
